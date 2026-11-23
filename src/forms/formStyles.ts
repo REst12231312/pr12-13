@@ -1,0 +1,23 @@
+import { StyleSheet } from 'react-native';
+export const formStyles = StyleSheet.create({
+  screen: { flex: 1, backgroundColor: '#f5f8fc' },
+  content: { width: '100%', maxWidth: 760, alignSelf: 'center', padding: 20, gap: 16 },
+  card: { backgroundColor: '#fff', padding: 20, borderWidth: 1, borderColor: '#cfd6e4', borderRadius: 14, gap: 16 },
+  title: { fontSize: 25, fontWeight: '700', color: '#30448c' },
+  subtitle: { fontSize: 16, lineHeight: 23, color: '#5a6478' },
+  field: { gap: 6 }, label: { color: '#18233f', fontSize: 16, fontWeight: '600' },
+  input: { minHeight: 48, borderWidth: 1, borderColor: '#9daac2', borderRadius: 8, backgroundColor: '#fff', color: '#18233f', paddingHorizontal: 12, paddingVertical: 10, fontSize: 17 },
+  multiline: { minHeight: 100, textAlignVertical: 'top' },
+  inputError: { borderColor: '#b42318', borderWidth: 2 },
+  error: { color: '#b42318', fontSize: 15, lineHeight: 21 },
+  hint: { color: '#5a6478', fontSize: 15, lineHeight: 21 },
+  notice: { color: '#18233f', fontSize: 16, lineHeight: 23 },
+  row: { flexDirection: 'row', flexWrap: 'wrap', alignItems: 'center', gap: 10 },
+  choice: { borderWidth: 1, borderColor: '#9daac2', minHeight: 44, padding: 10, borderRadius: 8 },
+  chosen: { borderColor: '#30448c', borderWidth: 2 },
+  button: { backgroundColor: '#30448c', minHeight: 48, borderRadius: 8, padding: 12, justifyContent: 'center', alignItems: 'center' },
+  buttonText: { color: '#fff', fontSize: 17, fontWeight: '600' },
+  secondary: { borderWidth: 1, borderColor: '#30448c', minHeight: 44, borderRadius: 8, padding: 12, justifyContent: 'center', alignItems: 'center' },
+  secondaryText: { color: '#30448c', fontSize: 16, fontWeight: '600' },
+  disabled: { opacity: 0.5 },
+});

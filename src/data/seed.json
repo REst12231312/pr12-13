@@ -1,0 +1,448 @@
+{
+  "variants": {
+    "1": {
+      "place": "Общежитие",
+      "extraLabel": "Комната",
+      "categories": [
+        {
+          "id": "keys",
+          "label": "Ключи"
+        },
+        {
+          "id": "cards",
+          "label": "Карты"
+        },
+        {
+          "id": "clothes",
+          "label": "Одежда"
+        }
+      ],
+      "items": [
+        {
+          "_id": "D-101",
+          "title": "Связка из двух ключей",
+          "category": "keys",
+          "description": "Брелок в виде синего кита",
+          "extra": "214",
+          "foundAt": "2026-10-20",
+          "status": "stored"
+        },
+        {
+          "_id": "D-102",
+          "title": "Ключ от почтового ящика",
+          "category": "keys",
+          "description": "Маленький, без брелока",
+          "extra": "307",
+          "foundAt": "2026-10-22",
+          "status": "returned"
+        },
+        {
+          "_id": "D-103",
+          "title": "Студенческая карта",
+          "category": "cards",
+          "description": "Фамилия на букву «С»",
+          "extra": "118",
+          "foundAt": "2026-10-23",
+          "status": "stored"
+        },
+        {
+          "_id": "D-104",
+          "title": "Банковская карта",
+          "category": "cards",
+          "description": "Карта зелёного цвета",
+          "extra": "402",
+          "foundAt": "2026-10-24",
+          "status": "stored"
+        },
+        {
+          "_id": "D-105",
+          "title": "Серый худи",
+          "category": "clothes",
+          "description": "Размер M, капюшон на шнурке",
+          "extra": "214",
+          "foundAt": "2026-10-25",
+          "status": "stored"
+        },
+        {
+          "_id": "D-106",
+          "title": "Шерстяной шарф",
+          "category": "clothes",
+          "description": "Красный в клетку",
+          "extra": "009",
+          "foundAt": "2026-10-26",
+          "status": "returned"
+        }
+      ]
+    },
+    "2": {
+      "place": "Библиотека",
+      "extraLabel": "Зал",
+      "categories": [
+        {
+          "id": "books",
+          "label": "Книги"
+        },
+        {
+          "id": "chargers",
+          "label": "Зарядки"
+        },
+        {
+          "id": "headphones",
+          "label": "Наушники"
+        }
+      ],
+      "items": [
+        {
+          "_id": "L-101",
+          "title": "Учебник по алгоритмам",
+          "category": "books",
+          "description": "С закладкой на главе о графах",
+          "extra": "Читальный зал",
+          "foundAt": "2026-10-20",
+          "status": "stored"
+        },
+        {
+          "_id": "L-102",
+          "title": "Сборник задач по физике",
+          "category": "books",
+          "description": "Подписан карандашом",
+          "extra": "Абонемент",
+          "foundAt": "2026-10-21",
+          "status": "returned"
+        },
+        {
+          "_id": "L-103",
+          "title": "Зарядка USB-C",
+          "category": "chargers",
+          "description": "Белый кабель, 1 м",
+          "extra": "Читальный зал",
+          "foundAt": "2026-10-22",
+          "status": "stored"
+        },
+        {
+          "_id": "L-104",
+          "title": "Пауэрбанк",
+          "category": "chargers",
+          "description": "Чёрный, 10 000 мА·ч",
+          "extra": "Компьютерный зал",
+          "foundAt": "2026-10-24",
+          "status": "stored"
+        },
+        {
+          "_id": "L-105",
+          "title": "Беспроводные наушники",
+          "category": "headphones",
+          "description": "В белом футляре",
+          "extra": "Компьютерный зал",
+          "foundAt": "2026-10-25",
+          "status": "stored"
+        },
+        {
+          "_id": "L-106",
+          "title": "Накладные наушники",
+          "category": "headphones",
+          "description": "Синие, с микрофоном",
+          "extra": "Абонемент",
+          "foundAt": "2026-10-26",
+          "status": "returned"
+        }
+      ]
+    },
+    "3": {
+      "place": "Спортзал",
+      "extraLabel": "Раздевалка",
+      "categories": [
+        {
+          "id": "bottles",
+          "label": "Бутылки"
+        },
+        {
+          "id": "sportswear",
+          "label": "Форма"
+        },
+        {
+          "id": "gadgets",
+          "label": "Гаджеты"
+        }
+      ],
+      "items": [
+        {
+          "_id": "S-101",
+          "title": "Металлическая бутылка",
+          "category": "bottles",
+          "description": "Синяя, с наклейкой",
+          "extra": "Мужская",
+          "foundAt": "2026-10-20",
+          "status": "stored"
+        },
+        {
+          "_id": "S-102",
+          "title": "Пластиковая бутылка",
+          "category": "bottles",
+          "description": "Прозрачная, 0,7 л",
+          "extra": "Женская",
+          "foundAt": "2026-10-21",
+          "status": "returned"
+        },
+        {
+          "_id": "S-103",
+          "title": "Спортивная футболка",
+          "category": "sportswear",
+          "description": "Номер 7 на спине",
+          "extra": "Мужская",
+          "foundAt": "2026-10-22",
+          "status": "stored"
+        },
+        {
+          "_id": "S-104",
+          "title": "Кроссовки",
+          "category": "sportswear",
+          "description": "Белые, размер 41",
+          "extra": "Женская",
+          "foundAt": "2026-10-24",
+          "status": "stored"
+        },
+        {
+          "_id": "S-105",
+          "title": "Фитнес-браслет",
+          "category": "gadgets",
+          "description": "Чёрный ремешок",
+          "extra": "Женская",
+          "foundAt": "2026-10-25",
+          "status": "stored"
+        },
+        {
+          "_id": "S-106",
+          "title": "Беспроводные наушники",
+          "category": "gadgets",
+          "description": "Футляр с царапиной",
+          "extra": "Мужская",
+          "foundAt": "2026-10-26",
+          "status": "returned"
+        }
+      ]
+    },
+    "4": {
+      "place": "Столовая",
+      "extraLabel": "Время находки",
+      "categories": [
+        {
+          "id": "containers",
+          "label": "Контейнеры"
+        },
+        {
+          "id": "umbrellas",
+          "label": "Зонты"
+        },
+        {
+          "id": "cards",
+          "label": "Карты"
+        }
+      ],
+      "items": [
+        {
+          "_id": "C-101",
+          "title": "Контейнер для обеда",
+          "category": "containers",
+          "description": "Зелёная крышка",
+          "extra": "12:40",
+          "foundAt": "2026-10-20",
+          "status": "stored"
+        },
+        {
+          "_id": "C-102",
+          "title": "Термокружка",
+          "category": "containers",
+          "description": "Серая, с надписью",
+          "extra": "09:15",
+          "foundAt": "2026-10-21",
+          "status": "returned"
+        },
+        {
+          "_id": "C-103",
+          "title": "Складной зонт",
+          "category": "umbrellas",
+          "description": "Чёрный, в чехле",
+          "extra": "13:05",
+          "foundAt": "2026-10-22",
+          "status": "stored"
+        },
+        {
+          "_id": "C-104",
+          "title": "Зонт-трость",
+          "category": "umbrellas",
+          "description": "Прозрачный купол",
+          "extra": "14:20",
+          "foundAt": "2026-10-24",
+          "status": "stored"
+        },
+        {
+          "_id": "C-105",
+          "title": "Студенческая карта",
+          "category": "cards",
+          "description": "Фамилия на букву «К»",
+          "extra": "12:55",
+          "foundAt": "2026-10-25",
+          "status": "stored"
+        },
+        {
+          "_id": "C-106",
+          "title": "Транспортная карта",
+          "category": "cards",
+          "description": "С наклейкой кота",
+          "extra": "08:50",
+          "foundAt": "2026-10-26",
+          "status": "returned"
+        }
+      ]
+    },
+    "5": {
+      "place": "Учебный корпус",
+      "extraLabel": "Аудитория",
+      "categories": [
+        {
+          "id": "stationery",
+          "label": "Канцелярия"
+        },
+        {
+          "id": "electronics",
+          "label": "Электроника"
+        },
+        {
+          "id": "clothes",
+          "label": "Одежда"
+        }
+      ],
+      "items": [
+        {
+          "_id": "K-101",
+          "title": "Пенал с ручками",
+          "category": "stationery",
+          "description": "Синий, на молнии",
+          "extra": "305",
+          "foundAt": "2026-10-20",
+          "status": "stored"
+        },
+        {
+          "_id": "K-102",
+          "title": "Графический калькулятор",
+          "category": "stationery",
+          "description": "С подписью на крышке",
+          "extra": "112",
+          "foundAt": "2026-10-21",
+          "status": "returned"
+        },
+        {
+          "_id": "K-103",
+          "title": "Флешка 32 ГБ",
+          "category": "electronics",
+          "description": "Красная, на шнурке",
+          "extra": "214",
+          "foundAt": "2026-10-22",
+          "status": "stored"
+        },
+        {
+          "_id": "K-104",
+          "title": "Компьютерная мышь",
+          "category": "electronics",
+          "description": "Беспроводная, серая",
+          "extra": "214",
+          "foundAt": "2026-10-24",
+          "status": "stored"
+        },
+        {
+          "_id": "K-105",
+          "title": "Джинсовая куртка",
+          "category": "clothes",
+          "description": "Размер S",
+          "extra": "401",
+          "foundAt": "2026-10-25",
+          "status": "stored"
+        },
+        {
+          "_id": "K-106",
+          "title": "Вязаная шапка",
+          "category": "clothes",
+          "description": "Жёлтая, с помпоном",
+          "extra": "118",
+          "foundAt": "2026-10-26",
+          "status": "returned"
+        }
+      ]
+    },
+    "6": {
+      "place": "Университетский автобус",
+      "extraLabel": "Маршрут",
+      "categories": [
+        {
+          "id": "bags",
+          "label": "Сумки"
+        },
+        {
+          "id": "documents",
+          "label": "Документы"
+        },
+        {
+          "id": "gadgets",
+          "label": "Гаджеты"
+        }
+      ],
+      "items": [
+        {
+          "_id": "B-101",
+          "title": "Рюкзак",
+          "category": "bags",
+          "description": "Чёрный, с конспектами",
+          "extra": "Кампус → общежитие",
+          "foundAt": "2026-10-20",
+          "status": "stored"
+        },
+        {
+          "_id": "B-102",
+          "title": "Спортивная сумка",
+          "category": "bags",
+          "description": "Синяя, с формой",
+          "extra": "Кампус → стадион",
+          "foundAt": "2026-10-21",
+          "status": "returned"
+        },
+        {
+          "_id": "B-103",
+          "title": "Зачётная книжка",
+          "category": "documents",
+          "description": "В обложке",
+          "extra": "Кампус → общежитие",
+          "foundAt": "2026-10-22",
+          "status": "stored"
+        },
+        {
+          "_id": "B-104",
+          "title": "Папка с договором",
+          "category": "documents",
+          "description": "Прозрачная, с файлами",
+          "extra": "Кампус → вокзал",
+          "foundAt": "2026-10-24",
+          "status": "stored"
+        },
+        {
+          "_id": "B-105",
+          "title": "Смартфон",
+          "category": "gadgets",
+          "description": "В красном чехле",
+          "extra": "Кампус → стадион",
+          "foundAt": "2026-10-25",
+          "status": "stored"
+        },
+        {
+          "_id": "B-106",
+          "title": "Электронная книга",
+          "category": "gadgets",
+          "description": "Серая, в обложке",
+          "extra": "Кампус → вокзал",
+          "foundAt": "2026-10-26",
+          "status": "returned"
+        }
+      ]
+    }
+  }
+}
